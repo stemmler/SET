@@ -1,0 +1,22 @@
+The game of SET
+----------------
+
+This is a personal project and is currently in the works. More coming soon!
+
+Definition:
+    A SET consists of three cards on which each individual feature is either all the same OR all different on all three cards.
+
+For details on how this game works, see http://www.setgame.com/set
+
+What's done so far?
+    I've implemented a card class for the game of SET, with some helpers:
+    * isSET - determines if 3 cards is a valid SET (satifying the definition below)
+    * getMatchingCard - get the matching card that would complete a SET, given 2 cards. This will be helpful in the future when trying to decide what card is needed to complete a SET, when looking for sets on the Board.
+
+What's next?
+    Create a Deck to hold all unique 81 SET cards.
+    Create a Board to represent the playing field.
+    Allow humans to play.
+    Polish with some GUI.
+
+Author: Kelsey Stemmler
